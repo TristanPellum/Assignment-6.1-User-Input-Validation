@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Specifies the character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures proper scaling on mobile devices -->
+    <title>Strings</title> <!-- Sets the title of the webpage, shown in the browser tab -->
+    <link rel="stylesheet" href="strings.css"> <!-- Links to the external CSS stylesheet for styling -->
+    <script src="strings.js"></script> <!-- Links to the external JavaScript file; ensure it loads correctly -->
+</head>
+<body>
+    <form id="fistLastZip" onsubmit="fullname(event)"> <!-- Form for collecting user input; calls fullname(event) on submission -->
+        <label for="firstname">First Name:</label> <!-- Label for the first name input -->
+        <input type="text" name="firstname" id="firstname"><br> <!-- Input field for the first name -->
+
+        <label for="lastname">Last Name:</label> <!-- Label for the last name input -->
+        <input type="text" name="lastname" id="lastname"><br> <!-- Input field for the last name -->
+
+        <label for="zipcode">Zipcode:</label> <!-- Label for the zipcode input -->
+        <input type="text" name="zipcode" id="zipcode"><br> <!-- Input field for the zipcode -->
+
+        <input type="submit" value="Submit"><br> <!-- Submit button for the form -->
+    </form>
+
+    <p id="display"></p> <!-- Paragraph to display the full name -->
+    <p id="secret"></p> <!-- Paragraph for additional messages or feedback -->
+
+</body>
+</html>

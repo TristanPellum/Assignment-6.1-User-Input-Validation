@@ -1,0 +1,45 @@
+/* Basic styles for the body */
+body {
+    font-family: Arial, sans-serif; /* Clean font */
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 20px; /* Add some padding */
+}
+
+/* Style the form */
+form {
+    background-color: #fff; /* White background */
+    padding: 20px; /* Padding inside the form */
+    border-radius: 5px; /* Rounded corners */
+    max-width: 400px; /* Max width */
+    margin: auto; /* Center the form */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Style the input fields and submit button */
+input[type="text"], input[type="submit"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside */
+    margin-bottom: 15px; /* Space below */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor */
+}
+
+/* Change background color on hover for the submit button */
+input[type="submit"]:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Style the display paragraphs */
+#display, #secret {
+    margin-top: 20px; /* Space above */
+    padding: 10px; /* Padding */
+    background-color: #e7f3fe; /* Light blue background */
+}
